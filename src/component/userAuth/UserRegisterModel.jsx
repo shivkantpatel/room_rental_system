@@ -36,6 +36,7 @@ const UserRegisterModel = () => {
 
                 </label>
                 <input type="text" id="name"
+                  placeholder='Your Name'
                   class="border px-4 py-1.5 w-full rounded-md" />
               </div>
 
@@ -48,6 +49,7 @@ const UserRegisterModel = () => {
                   email <span className=' text-red-500'>*</span>
                 </label>
                 <input type="text" id="email"
+                  placeholder='Your@gmial.com'
                   class="border px-4 py-1.5 w-full rounded-md" />
               </div>
 
@@ -56,7 +58,8 @@ const UserRegisterModel = () => {
                 <label htmlFor="contact" className="mb-3 text-sm font-medium text-gray-900 capitalize ">
                   contact <span className=' text-red-500'>*</span>
                 </label>
-                <input type="text" id="contact"
+                <input type="number" id="contact"
+                placeholder='91+ 0000000000'
                   class="border px-4 py-1.5 w-full rounded-md" />
               </div>
 
@@ -74,6 +77,7 @@ const UserRegisterModel = () => {
                   <input
                     type="text"
                     id="password"
+                    placeholder='Password'
                     className="   text-green-900 focus:outline-none flex-1"
 
                   />
@@ -94,6 +98,7 @@ const UserRegisterModel = () => {
                   <input
                     type="text"
                     id="conifirmPassword"
+                    placeholder='Cnf Password'
                     className="   text-green-900 focus:outline-none flex-1"
 
                   />
@@ -130,6 +135,7 @@ const UserRegisterModel = () => {
                   city <span className=' text-red-500'>*</span>
                 </label>
                 <input type="text" id="city"
+                placeholder='City'
                   class="border px-4 py-1.5 w-full rounded-md" />
               </div>
 
@@ -139,6 +145,7 @@ const UserRegisterModel = () => {
                   state <span className=' text-red-500'>*</span>
                 </label>
                 <input type="text" id="state"
+                placeholder='State'
                   class="border px-4 py-1.5 w-full rounded-md" />
               </div>
 
@@ -147,6 +154,7 @@ const UserRegisterModel = () => {
                   pincode <span className=' text-red-500'>*</span>
                 </label>
                 <input type="text" id="pincode"
+                placeholder='Pincode'
                   class="border px-4 py-1.5 w-full rounded-md" />
               </div>
 

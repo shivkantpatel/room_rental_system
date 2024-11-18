@@ -9,7 +9,7 @@ const UserLog_Out = () => {
   return (
     <div className="flex flex-row gap-[10px]">
       <NavLink
-        to="/Sign up"
+        to="/Sign-up"
         className={() =>
           `px-4 py-2 text-[#0d0C22] hover:text-[#7b7194] font-semibold`
         }
@@ -18,7 +18,7 @@ const UserLog_Out = () => {
       </NavLink>
 
       <NavLink
-        to="/Sign in"
+        to="/Sign-in"
         className={() =>
           `px-4 py-2 bg-[#0d0C22] font-medium rounded-full text-white`
         }

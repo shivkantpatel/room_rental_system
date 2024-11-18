@@ -1,7 +1,7 @@
 import React from 'react'
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
-import pic from '../../../public/Screenshot 2024-11-17 183542.png'
+import pic from '../../assets/Screenshot 2024-11-17 183542.png'
 import { NavLink } from 'react-router-dom';
 
 const UserLogin = () => {
@@ -34,6 +34,7 @@ const UserLogin = () => {
                     <input type="email"
                         className='border w-full px-2 py-2 rounded'
                         placeholder='Your@gmial.com'
+                        
                     />
                 </div>
                 <div className='mt-6'>
